@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16E175b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="UserName" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pBp-BR-frd">
+                                <rect key="frame" x="16" y="70" width="343" height="69"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="69" id="cLf-e9-gOs"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <color key="textColor" red="1" green="0.99412184790000002" blue="0.98135271690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qCz-yl-Yzw">
+                                <rect key="frame" x="16" y="179" width="343" height="61"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="61" id="wa0-At-ta8"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="Register">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="userRegister:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WMq-og-9ZY"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1n3-FS-wTH">
+                                <rect key="frame" x="16" y="248" width="343" height="69"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="69" id="e1e-Sj-08V"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Wq-vG-Z8j">
+                                <rect key="frame" x="16" y="357" width="343" height="61"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="61" id="9ZJ-kJ-GNx"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <state key="normal" title="On">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="onLight:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xjP-XT-Fw9"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fhb-iY-m1f">
+                                <rect key="frame" x="16" y="426" width="343" height="69"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="29"/>
+                                <color key="textColor" red="1" green="0.99412184790000002" blue="0.98135271690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Whj-sz-O48">
+                                <rect key="frame" x="16" y="535" width="343" height="61"/>
+                                <color key="backgroundColor" red="1" green="0.99412184790000002" blue="0.98135271690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="61" id="ZYT-eV-Pz5"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <state key="normal" title="Off">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="offLight:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xUZ-ui-gYT"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="pBp-BR-frd" firstAttribute="leading" secondItem="qCz-yl-Yzw" secondAttribute="leading" id="69p-5e-cxZ"/>
+                            <constraint firstItem="Fhb-iY-m1f" firstAttribute="trailing" secondItem="Whj-sz-O48" secondAttribute="trailing" id="7vY-jz-phX"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Whj-sz-O48" secondAttribute="bottom" constant="71" id="8J8-bT-3Vh"/>
+                            <constraint firstItem="1n3-FS-wTH" firstAttribute="trailing" secondItem="1Wq-vG-Z8j" secondAttribute="trailing" id="Am3-FR-udc"/>
+                            <constraint firstItem="1Wq-vG-Z8j" firstAttribute="leading" secondItem="Fhb-iY-m1f" secondAttribute="leading" id="CDz-tl-ryk"/>
+                            <constraint firstItem="pBp-BR-frd" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="GPf-wx-i2Y"/>
+                            <constraint firstItem="1Wq-vG-Z8j" firstAttribute="top" secondItem="1n3-FS-wTH" secondAttribute="bottom" constant="40" id="Mk1-rx-fWz"/>
+                            <constraint firstItem="Whj-sz-O48" firstAttribute="top" secondItem="Fhb-iY-m1f" secondAttribute="bottom" constant="40" id="PQO-U6-5MF"/>
+                            <constraint firstItem="Fhb-iY-m1f" firstAttribute="top" secondItem="1Wq-vG-Z8j" secondAttribute="bottom" constant="8" symbolic="YES" id="Scb-5V-rYp"/>
+                            <constraint firstItem="1n3-FS-wTH" firstAttribute="top" secondItem="qCz-yl-Yzw" secondAttribute="bottom" constant="8" symbolic="YES" id="aEL-ky-VBX"/>
+                            <constraint firstItem="pBp-BR-frd" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="50" id="dmC-ja-QvS"/>
+                            <constraint firstItem="qCz-yl-Yzw" firstAttribute="top" secondItem="pBp-BR-frd" secondAttribute="bottom" constant="40" id="gNP-JG-fRC"/>
+                            <constraint firstItem="pBp-BR-frd" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="lw3-wb-aTy"/>
+                            <constraint firstItem="1Wq-vG-Z8j" firstAttribute="trailing" secondItem="Fhb-iY-m1f" secondAttribute="trailing" id="nWG-6m-cJM"/>
+                            <constraint firstItem="1n3-FS-wTH" firstAttribute="leading" secondItem="1Wq-vG-Z8j" secondAttribute="leading" id="pmG-uo-oIK"/>
+                            <constraint firstItem="pBp-BR-frd" firstAttribute="trailing" secondItem="qCz-yl-Yzw" secondAttribute="trailing" id="qAi-do-vme"/>
+                            <constraint firstItem="qCz-yl-Yzw" firstAttribute="leading" secondItem="1n3-FS-wTH" secondAttribute="leading" id="s0h-wv-m9e"/>
+                            <constraint firstItem="Fhb-iY-m1f" firstAttribute="leading" secondItem="Whj-sz-O48" secondAttribute="leading" id="xW1-44-drC"/>
+                            <constraint firstItem="qCz-yl-Yzw" firstAttribute="trailing" secondItem="1n3-FS-wTH" secondAttribute="trailing" id="xmr-xw-3sO"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="lightOffStatus" destination="Fhb-iY-m1f" id="P1B-yv-MNb"/>
+                        <outlet property="lightOnStatus" destination="1n3-FS-wTH" id="JRh-9W-IaI"/>
+                        <outlet property="userName" destination="pBp-BR-frd" id="LAN-kn-vX3"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="32.799999999999997" y="37.331334332833585"/>
+        </scene>
+    </scenes>
+</document>
